@@ -3,13 +3,18 @@
 
 <head>
     <script src="node_modules/snapsvg/dist/snap.svg-min.js"></script>
+    <script src="app.js"></script>
     <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
 
     <div class="canvas-container">
-        <script src="app.js"></script>
+        <svg id="snapContainer" width="800px" height="800px"></svg>
+        <div class="controls-container">
+            <button onclick="undo()">Undo</button>
+            <button onclick="clearAll()">Clear</button>
+        </div>
     </div>
 
 </body>

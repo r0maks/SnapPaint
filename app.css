@@ -1,4 +1,17 @@
 .canvas-container {
-    border: 1px solid #eee;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.canvas-container #snapContainer {
+    border: 2px solid #ccc;
     border-radius: 3px;
+    display: grid;
+    margin-right: 10px;
+}
+
+.controls-container {
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
 }
